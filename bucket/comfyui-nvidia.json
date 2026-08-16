@@ -10,26 +10,6 @@
         }
     },
     "extract_dir": "ComfyUI_windows_portable",
-    "bin": [
-        [
-            "run_nvidia_gpu.bat",
-            "comfyui"
-        ],
-        [
-            "run_nvidia_gpu_fast_fp16_accumulation.bat",
-            "comfyui-fast"
-        ],
-        [
-            "run_cpu.bat",
-            "comfyui-cpu"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "run_nvidia_gpu.bat",
-            "ComfyUI (NVIDIA GPU)"
-        ]
-    ],
     "persist": [
         "ComfyUI/models",
         "ComfyUI/custom_nodes",
