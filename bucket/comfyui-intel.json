@@ -1,0 +1,27 @@
+{
+    "version": "0.33.1",
+    "description": "A powerful and modular stable diffusion GUI and pipeline with a graph/nodes interface.",
+    "homepage": "https://github.com/Comfy-Org/ComfyUI",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Comfy-Org/ComfyUI/releases/download/v0.33.1/ComfyUI_windows_portable_intel.7z",
+            "hash": "sha256:c29e5c19a9d29a8aea5d4ae7811048a409a0748dbde3dde639ce52cc29cf228c"
+        }
+    },
+    "extract_dir": "ComfyUI_windows_portable",
+    "persist": [
+        "ComfyUI/models",
+        "ComfyUI/custom_nodes",
+        "ComfyUI/output",
+        "ComfyUI/input"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Comfy-Org/ComfyUI/releases/download/v$version/ComfyUI_windows_portable_intel.7z"
+            }
+        }
+    }
+}
