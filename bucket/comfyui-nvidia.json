@@ -16,9 +16,7 @@
         "ComfyUI/output",
         "ComfyUI/input"
     ],
-    "checkver": {
-        "github": "https://github.com/Comfy-Org/ComfyUI"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
